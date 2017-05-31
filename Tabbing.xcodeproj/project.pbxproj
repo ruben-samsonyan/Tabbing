@@ -7,12 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861490A5CFDF575AF90E8D73 /* TabbingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149CDC58BB40816AA6F999 /* TabbingDataSource.swift */; };
+		861490DED0CE2EEB36E26236 /* TabBarPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614958D42D846FFAC96A3EF /* TabBarPosition.swift */; };
+		86149374BB8E3F2B5B82FABF /* TabbingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149EB872FCECA3EDAE91DF /* TabbingDelegate.swift */; };
+		8614941E3060763B919EB1BF /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149AB59615A1A31EE6776C /* PagerView.swift */; };
+		8614953ADB5BDEA5C687F60F /* TabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149233CD202E2B331CB841 /* TabBarDelegate.swift */; };
+		8614963E6B5AB854D542D8A0 /* TabBarState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149E254E7CB6F38826F096 /* TabBarState.swift */; };
+		86149C1169165414DB0D5DAC /* TabBarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149B3A92DD49793456FD4D /* TabBarDataSource.swift */; };
+		86149C99F49293EAAA1CC44A /* TabContentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8614953C8262040FB65B3CAF /* TabContentDelegate.swift */; };
+		86149D5CF8E524168DCB3ED3 /* TabContentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86149678C32C50C4F8C87C9A /* TabContentDataSource.swift */; };
+		86149EF4418CAC16A106C3DE /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861490F7C0D66A114F492325 /* TabBarView.swift */; };
+		F037445B1EDB50E100D033E4 /* TabbedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8ED1EDAFF31005FB8B0 /* TabbedViewController.swift */; };
+		F037445E1EDB50F600D033E4 /* Tabbing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F083F8A21EDAFCDE005FB8B0 /* Tabbing.framework */; };
+		F037445F1EDB50F600D033E4 /* Tabbing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F083F8A21EDAFCDE005FB8B0 /* Tabbing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F083F8AC1EDAFCDE005FB8B0 /* Tabbing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F083F8A21EDAFCDE005FB8B0 /* Tabbing.framework */; };
 		F083F8B11EDAFCDE005FB8B0 /* TabbingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8B01EDAFCDE005FB8B0 /* TabbingTests.swift */; };
 		F083F8B31EDAFCDE005FB8B0 /* Tabbing.h in Headers */ = {isa = PBXBuildFile; fileRef = F083F8A51EDAFCDE005FB8B0 /* Tabbing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F083F8C31EDAFD0A005FB8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8C21EDAFD0A005FB8B0 /* AppDelegate.swift */; };
+		F083F8C51EDAFD0A005FB8B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8C41EDAFD0A005FB8B0 /* ViewController.swift */; };
+		F083F8C81EDAFD0A005FB8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F083F8C61EDAFD0A005FB8B0 /* Main.storyboard */; };
+		F083F8CA1EDAFD0A005FB8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083F8C91EDAFD0A005FB8B0 /* Assets.xcassets */; };
+		F083F8CD1EDAFD0A005FB8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F083F8CB1EDAFD0A005FB8B0 /* LaunchScreen.storyboard */; };
+		F083F8EE1EDAFF31005FB8B0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8E11EDAFF31005FB8B0 /* Constants.swift */; };
+		F083F8F61EDAFF31005FB8B0 /* TabBarStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8E91EDAFF31005FB8B0 /* TabBarStateMachine.swift */; };
+		F083F8F71EDAFF31005FB8B0 /* TabBarItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8EA1EDAFF31005FB8B0 /* TabBarItemModel.swift */; };
+		F083F8F81EDAFF31005FB8B0 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083F8EB1EDAFF31005FB8B0 /* NSLayoutConstraint+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F037445C1EDB50EE00D033E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F083F8991EDAFCDE005FB8B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F083F8A11EDAFCDE005FB8B0;
+			remoteInfo = Tabbing;
+		};
 		F083F8AD1EDAFCDE005FB8B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F083F8991EDAFCDE005FB8B0 /* Project object */;
@@ -22,13 +51,49 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F03744601EDB50F600D033E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F037445F1EDB50F600D033E4 /* Tabbing.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		861490F7C0D66A114F492325 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		86149233CD202E2B331CB841 /* TabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarDelegate.swift; sourceTree = "<group>"; };
+		8614953C8262040FB65B3CAF /* TabContentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabContentDelegate.swift; sourceTree = "<group>"; };
+		8614958D42D846FFAC96A3EF /* TabBarPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarPosition.swift; sourceTree = "<group>"; };
+		86149678C32C50C4F8C87C9A /* TabContentDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabContentDataSource.swift; sourceTree = "<group>"; };
+		86149AB59615A1A31EE6776C /* PagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		86149B3A92DD49793456FD4D /* TabBarDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarDataSource.swift; sourceTree = "<group>"; };
+		86149CDC58BB40816AA6F999 /* TabbingDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbingDataSource.swift; sourceTree = "<group>"; };
+		86149E254E7CB6F38826F096 /* TabBarState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarState.swift; sourceTree = "<group>"; };
+		86149EB872FCECA3EDAE91DF /* TabbingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbingDelegate.swift; sourceTree = "<group>"; };
 		F083F8A21EDAFCDE005FB8B0 /* Tabbing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tabbing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F083F8A51EDAFCDE005FB8B0 /* Tabbing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tabbing.h; sourceTree = "<group>"; };
 		F083F8A61EDAFCDE005FB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F083F8AB1EDAFCDE005FB8B0 /* TabbingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F083F8B01EDAFCDE005FB8B0 /* TabbingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbingTests.swift; sourceTree = "<group>"; };
 		F083F8B21EDAFCDE005FB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F083F8C01EDAFD0A005FB8B0 /* TabbingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F083F8C21EDAFD0A005FB8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F083F8C41EDAFD0A005FB8B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F083F8C71EDAFD0A005FB8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F083F8C91EDAFD0A005FB8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F083F8CC1EDAFD0A005FB8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F083F8CE1EDAFD0A005FB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F083F8E11EDAFF31005FB8B0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F083F8E91EDAFF31005FB8B0 /* TabBarStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarStateMachine.swift; sourceTree = "<group>"; };
+		F083F8EA1EDAFF31005FB8B0 /* TabBarItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItemModel.swift; sourceTree = "<group>"; };
+		F083F8EB1EDAFF31005FB8B0 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		F083F8ED1EDAFF31005FB8B0 /* TabbedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +112,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F083F8BD1EDAFD0A005FB8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F037445E1EDB50F600D033E4 /* Tabbing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86149695D3A5CDE4E3D78F14 /* TabContent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabContent;
+			sourceTree = "<group>";
+		};
+		86149B7C6A84A126C17E0038 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				86149678C32C50C4F8C87C9A /* TabContentDataSource.swift */,
+				8614953C8262040FB65B3CAF /* TabContentDelegate.swift */,
+				86149EB872FCECA3EDAE91DF /* TabbingDelegate.swift */,
+				86149CDC58BB40816AA6F999 /* TabbingDataSource.swift */,
+				86149233CD202E2B331CB841 /* TabBarDelegate.swift */,
+				86149B3A92DD49793456FD4D /* TabBarDataSource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		86149E1C339150FA8A2EA93A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				86149AB59615A1A31EE6776C /* PagerView.swift */,
+				861490F7C0D66A114F492325 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		F083F8981EDAFCDE005FB8B0 = {
 			isa = PBXGroup;
 			children = (
+				F083F8E01EDAFF31005FB8B0 /* Sources */,
 				F083F8A41EDAFCDE005FB8B0 /* Tabbing */,
 				F083F8AF1EDAFCDE005FB8B0 /* TabbingTests */,
+				F083F8C11EDAFD0A005FB8B0 /* TabbingDemo */,
 				F083F8A31EDAFCDE005FB8B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +168,7 @@
 			children = (
 				F083F8A21EDAFCDE005FB8B0 /* Tabbing.framework */,
 				F083F8AB1EDAFCDE005FB8B0 /* TabbingTests.xctest */,
+				F083F8C01EDAFD0A005FB8B0 /* TabbingDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +189,36 @@
 				F083F8B21EDAFCDE005FB8B0 /* Info.plist */,
 			);
 			path = TabbingTests;
+			sourceTree = "<group>";
+		};
+		F083F8C11EDAFD0A005FB8B0 /* TabbingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F083F8C21EDAFD0A005FB8B0 /* AppDelegate.swift */,
+				F083F8C41EDAFD0A005FB8B0 /* ViewController.swift */,
+				F083F8C61EDAFD0A005FB8B0 /* Main.storyboard */,
+				F083F8C91EDAFD0A005FB8B0 /* Assets.xcassets */,
+				F083F8CB1EDAFD0A005FB8B0 /* LaunchScreen.storyboard */,
+				F083F8CE1EDAFD0A005FB8B0 /* Info.plist */,
+			);
+			path = TabbingDemo;
+			sourceTree = "<group>";
+		};
+		F083F8E01EDAFF31005FB8B0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F083F8E11EDAFF31005FB8B0 /* Constants.swift */,
+				F083F8E91EDAFF31005FB8B0 /* TabBarStateMachine.swift */,
+				F083F8EA1EDAFF31005FB8B0 /* TabBarItemModel.swift */,
+				F083F8EB1EDAFF31005FB8B0 /* NSLayoutConstraint+Extension.swift */,
+				F083F8ED1EDAFF31005FB8B0 /* TabbedViewController.swift */,
+				86149E254E7CB6F38826F096 /* TabBarState.swift */,
+				8614958D42D846FFAC96A3EF /* TabBarPosition.swift */,
+				86149B7C6A84A126C17E0038 /* Protocols */,
+				86149E1C339150FA8A2EA93A /* TabBar */,
+				86149695D3A5CDE4E3D78F14 /* TabContent */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +271,25 @@
 			productReference = F083F8AB1EDAFCDE005FB8B0 /* TabbingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F083F8BF1EDAFD0A005FB8B0 /* TabbingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F083F8DA1EDAFD0B005FB8B0 /* Build configuration list for PBXNativeTarget "TabbingDemo" */;
+			buildPhases = (
+				F083F8BC1EDAFD0A005FB8B0 /* Sources */,
+				F083F8BD1EDAFD0A005FB8B0 /* Frameworks */,
+				F083F8BE1EDAFD0A005FB8B0 /* Resources */,
+				F03744601EDB50F600D033E4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F037445D1EDB50EE00D033E4 /* PBXTargetDependency */,
+			);
+			name = TabbingDemo;
+			productName = TabbingDemo;
+			productReference = F083F8C01EDAFD0A005FB8B0 /* TabbingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +310,11 @@
 						DevelopmentTeam = GUYD4XRL85;
 						ProvisioningStyle = Automatic;
 					};
+					F083F8BF1EDAFD0A005FB8B0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = GUYD4XRL85;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F083F89C1EDAFCDE005FB8B0 /* Build configuration list for PBXProject "Tabbing" */;
@@ -164,6 +323,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F083F8981EDAFCDE005FB8B0;
 			productRefGroup = F083F8A31EDAFCDE005FB8B0 /* Products */;
@@ -172,6 +332,7 @@
 			targets = (
 				F083F8A11EDAFCDE005FB8B0 /* Tabbing */,
 				F083F8AA1EDAFCDE005FB8B0 /* TabbingTests */,
+				F083F8BF1EDAFD0A005FB8B0 /* TabbingDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +352,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F083F8BE1EDAFD0A005FB8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083F8CD1EDAFD0A005FB8B0 /* LaunchScreen.storyboard in Resources */,
+				F083F8CA1EDAFD0A005FB8B0 /* Assets.xcassets in Resources */,
+				F083F8C81EDAFD0A005FB8B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,6 +369,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F083F8F81EDAFF31005FB8B0 /* NSLayoutConstraint+Extension.swift in Sources */,
+				F083F8F61EDAFF31005FB8B0 /* TabBarStateMachine.swift in Sources */,
+				F083F8F71EDAFF31005FB8B0 /* TabBarItemModel.swift in Sources */,
+				F083F8EE1EDAFF31005FB8B0 /* Constants.swift in Sources */,
+				8614963E6B5AB854D542D8A0 /* TabBarState.swift in Sources */,
+				F037445B1EDB50E100D033E4 /* TabbedViewController.swift in Sources */,
+				861490DED0CE2EEB36E26236 /* TabBarPosition.swift in Sources */,
+				86149D5CF8E524168DCB3ED3 /* TabContentDataSource.swift in Sources */,
+				86149C99F49293EAAA1CC44A /* TabContentDelegate.swift in Sources */,
+				86149374BB8E3F2B5B82FABF /* TabbingDelegate.swift in Sources */,
+				861490A5CFDF575AF90E8D73 /* TabbingDataSource.swift in Sources */,
+				8614953ADB5BDEA5C687F60F /* TabBarDelegate.swift in Sources */,
+				86149C1169165414DB0D5DAC /* TabBarDataSource.swift in Sources */,
+				8614941E3060763B919EB1BF /* PagerView.swift in Sources */,
+				86149EF4418CAC16A106C3DE /* TabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,15 +395,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F083F8BC1EDAFD0A005FB8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083F8C51EDAFD0A005FB8B0 /* ViewController.swift in Sources */,
+				F083F8C31EDAFD0A005FB8B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F037445D1EDB50EE00D033E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F083F8A11EDAFCDE005FB8B0 /* Tabbing */;
+			targetProxy = F037445C1EDB50EE00D033E4 /* PBXContainerItemProxy */;
+		};
 		F083F8AE1EDAFCDE005FB8B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F083F8A11EDAFCDE005FB8B0 /* Tabbing */;
 			targetProxy = F083F8AD1EDAFCDE005FB8B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F083F8C61EDAFD0A005FB8B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F083F8C71EDAFD0A005FB8B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F083F8CB1EDAFD0A005FB8B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F083F8CC1EDAFD0A005FB8B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F083F8B41EDAFCDE005FB8B0 /* Debug */ = {
@@ -362,6 +581,7 @@
 		F083F8BA1EDAFCDE005FB8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GUYD4XRL85;
 				INFOPLIST_FILE = TabbingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,10 +594,39 @@
 		F083F8BB1EDAFCDE005FB8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GUYD4XRL85;
 				INFOPLIST_FILE = TabbingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alimonte.TabbingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F083F8DB1EDAFD0B005FB8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GUYD4XRL85;
+				INFOPLIST_FILE = TabbingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alimonte.TabbingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F083F8DC1EDAFD0B005FB8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GUYD4XRL85;
+				INFOPLIST_FILE = TabbingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alimonte.TabbingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -402,6 +651,7 @@
 				F083F8B81EDAFCDE005FB8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F083F8B91EDAFCDE005FB8B0 /* Build configuration list for PBXNativeTarget "TabbingTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +660,16 @@
 				F083F8BB1EDAFCDE005FB8B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F083F8DA1EDAFD0B005FB8B0 /* Build configuration list for PBXNativeTarget "TabbingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083F8DB1EDAFD0B005FB8B0 /* Debug */,
+				F083F8DC1EDAFD0B005FB8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
